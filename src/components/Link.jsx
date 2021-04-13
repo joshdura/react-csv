@@ -1,8 +1,7 @@
 import React from 'react';
 import { buildURI, toCSV } from '../core';
 import {
-  defaultProps as commonDefaultProps,
-  propTypes as commonPropTypes
+  defaultProps as commonDefaultProps
 } from '../metaProps';
 
 /**
@@ -11,7 +10,6 @@ import {
  */
 class CSVLink extends React.Component {
   static defaultProps = commonDefaultProps;
-  static propTypes = commonPropTypes;
 
   constructor(props) {
     super(props);
