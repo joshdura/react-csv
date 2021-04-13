@@ -1,8 +1,7 @@
 import React from 'react';
 import {buildURI} from '../core';
 import {
-   defaultProps as commonDefaultProps,
-   propTypes as commonPropTypes} from '../metaProps';
+   defaultProps as commonDefaultProps} from '../metaProps';
 const defaultProps = {
   target: '_blank'
 };
@@ -17,8 +16,6 @@ class CSVDownload extends React.Component {
     commonDefaultProps,
     defaultProps
   );
-
-  static propTypes = commonPropTypes;
 
   constructor(props) {
     super(props);
