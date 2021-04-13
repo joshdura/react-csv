@@ -43,7 +43,7 @@
   },
   "homepage": "https://github.com/react-csv/react-csv#readme",
   "dependencies": {
-    "prop-types": "^15.5.8",
+    "prop-types": "^15.5.8"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
