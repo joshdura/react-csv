@@ -42,6 +42,9 @@
     "url": "https://github.com/react-csv/react-csv/issues"
   },
   "homepage": "https://github.com/react-csv/react-csv#readme",
+  "dependencies": {
+    "prop-types": "^15.5.8",
+  },
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-core": "^6.18.2",
@@ -63,7 +66,6 @@
     "jsdom-global": "2.1.0",
     "mocha": "^3.2.0",
     "mocha-lcov-reporter": "^1.2.0",
-    "prop-types": "^15.5.8",
     "react": "^15.5.4",
     "react-docgen": "^2.13.0",
     "react-dom": "^15.5.4",
